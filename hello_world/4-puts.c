@@ -1,9 +1,12 @@
 #include <stdio.h>
+
 /**
- *main - main.c
- *
- *return - working result
-*/
+ * main - Entry point
+ * 
+ * Description: 'print string''
+ *  
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
