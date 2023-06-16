@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  *function that return 0 if success
 */
 int main(void)
