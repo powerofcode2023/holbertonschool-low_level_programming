@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *function that return 0 if success
+ *main - main.c
+ *return - working result
 */
 int main(void)
 {
