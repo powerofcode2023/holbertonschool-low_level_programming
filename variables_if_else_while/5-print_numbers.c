@@ -12,6 +12,6 @@ for (numbers = 0 ; numbers <= 10 ; numbers++)
 {
 printf("Single digit numbers are %d", numbers);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
