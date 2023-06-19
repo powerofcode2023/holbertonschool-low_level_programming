@@ -7,6 +7,8 @@
 
 /**
  * main - Entry point
+ *
+ *return: 0 mean success
  */
 
 int main(void)
@@ -19,7 +21,7 @@ int main(void)
 	if (n > 0)
 	{
 	printf("%d is positive\n", n);
-        }
+	}
 	else if (n < 0)
 	{
 	printf("%d is negative\n", n);
