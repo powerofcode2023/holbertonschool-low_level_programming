@@ -7,7 +7,7 @@
  *
  * Return: 0 mean success
  */
-int main()
+int main(void)
 {
 char alphabet;
 for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
