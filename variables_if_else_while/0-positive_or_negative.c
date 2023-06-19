@@ -8,7 +8,7 @@
 /**
  * main - Entry point
  *
- *return: 0 mean success
+ * Return: 0 mean success
  */
 
 int main(void)
@@ -29,7 +29,6 @@ int main(void)
 	else
 	{
 	printf("%d is zero\n", n);
-	}
-	 
+	} 
 	return (0);
 }
