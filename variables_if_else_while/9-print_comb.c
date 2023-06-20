@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-  int combinations;
-  for (combinations = '0' ; combinations <= '9' ; combinations++)
+int combinations;
+
+ for (combinations = '0' ; combinations <= '9' ; combinations++)
     {
       putchar(combinations);
       if (combinations != '9')
