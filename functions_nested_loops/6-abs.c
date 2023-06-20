@@ -1,16 +1,19 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _abs - main function
- *
- * @n: integer to make absolute
- * Return: int or int times negative
- *
+ * _islower - checks if input is lowercase
+ * @c: variable to determine if input is lowercase
+ * main - uses built in function
+ * Return: 0 if succesful
  */
 
-int _abs(int n)
+int _islower(int c)
 {
-	if (n > 0)
-		return (n);
-	else
-		return (n * -1);
+int i;
+i = 0;
+if (c >= 'a' && c <= 'z')
+{
+i = 1;
+}
+return (i);
 }
