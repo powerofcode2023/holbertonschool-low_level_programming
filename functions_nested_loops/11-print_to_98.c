@@ -1,7 +1,12 @@
 #include "main.h"
 #include "6-abs.c"
 #include <stdio.h>
-
+/**
+*print_to_98 - prints natural
+*numbers from n to 98
+*@n:integer to start by
+*return: returns nothing
+*/
 void print_to_98(int n)
 {
 	int i;
