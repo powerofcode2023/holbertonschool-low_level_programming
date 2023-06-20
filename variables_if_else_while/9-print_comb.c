@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-  char combinations;
+  int combinations;
   for (combinations = '0' ; combinations <= '9' ; combinations++)
     {
       putchar(combinations);
