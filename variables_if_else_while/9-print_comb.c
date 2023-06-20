@@ -11,8 +11,12 @@ int main(void)
   for (combinations = '0' ; combinations <= '9' ; combinations++)
     {
       putchar(combinations);
-      putchar(', ');
+      if (combinations != '9')
+	{
+	  putchar(',');
+	  putchar(' ');
+	}  
     }
   putchar('\n');
-  return '0);
+  return (0);
 }
