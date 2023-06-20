@@ -1,23 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: 0 mean success
- */
+  * main - Prints a serie of numbers with commas
+  *
+  * Return: Always (Success);
+  */
 int main(void)
 {
-int combinations;
+	int c;
 
- for (combinations = '0' ; combinations <= '9' ; combinations++)
-    {
-      putchar(combinations);
-      if (combinations != '9')
+	for (c = '0'; c <= '9'; c++)
 	{
-	  putchar(',');
-	  putchar(' ');
-	}  
-    }
-  putchar('\n');
-  return (0);
+		putchar(c);
+
+		if (c != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
