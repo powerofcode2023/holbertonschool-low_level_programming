@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 void invert_num(int *pt_num1, int *pt_num2)
