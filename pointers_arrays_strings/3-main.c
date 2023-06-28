@@ -15,18 +15,4 @@ int main(void)
     printf("%d\n", _strcmp(s2, s1));
     printf("%d\n", _strcmp(s1, s1));
     return (0);
-}#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char *str;
-
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    _puts(str);
-    return (0);
 }
