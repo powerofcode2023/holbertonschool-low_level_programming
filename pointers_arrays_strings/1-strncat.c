@@ -17,12 +17,11 @@ int i;
 while (dest[dest_len] != '\0')
 dest_len++;
 
-    
 for (i = 0; i < n && src[i] != '\0'; i++)
 dest[dest_len++] = src[i];
 
-    
+
 dest[dest_len] = '\0';
 
-return dest;
+return (dest);
 }
