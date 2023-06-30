@@ -7,7 +7,7 @@
  * Return: NULL if character is not found, return pointer
  */
 
-char *_strpbrk(char *s, char *accetpt)
+char *_strpbrk(char *s, char *accept)
 {
   char *s1 = s - 1;
   int i;
