@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- **factorial - factorize n
- *@n - integer
+ * factorial - factorize n
+ * @n - integer
  *
  * Return: sucess 1
  */
