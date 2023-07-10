@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 /**
- * create_array: create an array of chars
+ * create_array - create an array of chars
  * @size: size of the array
- * @c char stored
+ * @c: char stored
  * Return: pointer of array of chars
  */
 
@@ -17,7 +17,7 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (NULL);
 	pointer = malloc(sizeof(c) * size);
-	
+
 	if (pointer == NULL)
 		return (NULL);
 
