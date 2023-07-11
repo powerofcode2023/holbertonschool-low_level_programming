@@ -3,15 +3,12 @@
 #include "main.h"
 
 /**
- *   str_concat - Concatenates two strings.
+ * str_concat - Concatenates two strings.
  *
  * Arguments:
- * @s1: Pointer to the first string. If NULL, it is treated as an empty string.
- * @s2: Pointer to the second string. If NULL, it is treated as an empty string.
- *
- * Returns:
- * - Pointer to the concatenated string (s1 followed by s2), allocated in memory.
- * - Returns NULL on failure (memory allocation failure).
+ * @s1: Pointer to the first string.
+ * @s2: Pointer to the second string
+ * Returns:* - Pointer to the concatenated string
  */
 
 char *str_concat(char *s1, char *s2)
@@ -33,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	len2 = strlen(s2);
 
 	result = (char *)malloc((len1 + len2 + 1) * sizeof(char));
-	if (result == NULL) 
+	if (result == NULL)
 	{
 		return (NULL);
 	}
