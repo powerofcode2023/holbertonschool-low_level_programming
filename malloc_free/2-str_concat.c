@@ -3,12 +3,10 @@
 #include "main.h"
 
 /**
- * str_concat - Concatenates two strings.
- *
- * Arguments:
- * @s1: Pointer to the first string.
- * @s2: Pointer to the second string
- * Returns:* - Pointer to the concatenated string
+ * str_concat - concat two string to a newly allocated space in memory
+ * @s1: string
+ * @s2: string
+ * Return: returns a pointer to the two strings concatenated, or NULL if fails
  */
 
 char *str_concat(char *s1, char *s2)
