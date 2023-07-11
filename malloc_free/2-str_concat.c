@@ -2,43 +2,43 @@
 #include <string.h>
 #include "main.h"
 
-/*
-    Concatenates two strings.
+/**
+ *   str_concat - Concatenates two strings.
+ *
+ * Arguments:
+ * @s1: Pointer to the first string. If NULL, it is treated as an empty string.
+ * @s2: Pointer to the second string. If NULL, it is treated as an empty string.
+ *
+ * Returns:
+ * - Pointer to the concatenated string (s1 followed by s2), allocated in memory.
+ * - Returns NULL on failure (memory allocation failure).
+ */
 
-    Arguments:
-    - s1: Pointer to the first string. If NULL, it is treated as an empty string.
-    - s2: Pointer to the second string. If NULL, it is treated as an empty string.
+char *str_concat(char *s1, char *s2)
+{
+	size_t len1, len2;
+	char *result;
 
-    Returns:
-    - Pointer to the concatenated string (s1 followed by s2), allocated in memory.
-    - Returns NULL on failure (memory allocation failure).
-  
-*/
+	if (s1 == NULL)
+	{
+	s1 = "";
+	}
 
-char *str_concat(char *s1, char *s2) {
-    size_t len1, len2;
-    char *result;
+	if (s2 == NULL)
+	{
+	s2 = "";
+	}
 
-    if (s1 == NULL) {
-        s1 = "";
-    }
+	len1 = strlen(s1);
+	len2 = strlen(s2);
 
-    if (s2 == NULL) {
-        s2 = "";
-    }
+	result = (char *)malloc((len1 + len2 + 1) * sizeof(char));
+	if (result == NULL) 
+	{
+		return (NULL);
+	}
+	strcpy(result, s1);
+	strcat(result, s2);
 
-    len1 = strlen(s1);
-    len2 = strlen(s2);
-
-    result = (char *)malloc((len1 + len2 + 1) * sizeof(char));
-    if (result == NULL) {
-        return NULL;
-    }
-
-    strcpy(result, s1);
-    strcat(result, s2);
-
-    return result;
+	return (result);
 }
-
-
