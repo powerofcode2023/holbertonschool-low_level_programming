@@ -1,9 +1,13 @@
 #include <stdio.h>
-#include <libgen.h>
 
-int main(void) {
-    const char* fileName = basename(__FILE__);
-    printf("Compiled from file: %s\n", fileName);
-    return 0;
+/**
+ * main - prints file name
+ *
+ * Return: 0 if succesful
+ */
+
+int main(void)
+{
+	printf("%s\n", __FILE__);
+	return (0);
 }
-
